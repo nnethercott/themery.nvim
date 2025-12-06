@@ -45,8 +45,6 @@ local function saveTheme(theme, theme_id)
         print(constants.MSG_ERROR.WRITE_FILE .. ": " .. err)
         return
     end
-
-    print(constants.MSG_INFO.THEME_SAVED)
 end
 
 -- Load a function and then execute it.
